@@ -1,0 +1,34 @@
+#adminmenu {
+  .toplevel_page_cloneable-fields {
+    display: none;
+  }
+}
+
+.wp-block {
+  max-width: 900px;
+}
+
+.acf-field-message {
+  background-color: #f5f5f5;
+
+  .acf-label {
+    label {
+      font-size: 20px;
+    }
+  }
+
+  .acf-input {
+    p {
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.acf-field-accordion {
+  .acf-accordion-title {
+    &:hover {
+      background-color: #dde0e2;
+    }
+  }
+}

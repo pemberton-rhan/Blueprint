@@ -1,0 +1,7 @@
+@use 'utilities' as utils;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

@@ -1,0 +1,37 @@
+{
+  "name": "blueprint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "sync": "gulp sync",
+    "watch": "gulp watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-changed": "^4.0.3",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-file-sync": "^2.1.0",
+    "gulp-image-resize": "^0.13.1",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-include": "^2.4.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-watch": "^5.0.1",
+    "imagemin-svgo": "^10.0.1",
+    "sass": "^1.69.3",
+    "scss-reset": "^1.4.2"
+  },
+  "dependencies": {
+    "jpegtran-bin": "^7.0.0"
+  }
+}

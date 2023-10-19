@@ -1,0 +1,14 @@
+# .gitignore
+
+# Ignore node modules
+node_modules/
+
+# Ignore OS and Editor folders/files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.sublime*
+
+# Ignore media that is not optimized
+src/assets/media/

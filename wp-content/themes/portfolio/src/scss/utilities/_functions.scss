@@ -1,0 +1,6 @@
+@use 'sass:math';
+
+// rem-calc
+@function rem-calc($pixel-value, $base-size: 16) {
+  @return math.div($pixel-value, $base-size) + rem;
+}
